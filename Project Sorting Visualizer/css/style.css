@@ -127,7 +127,7 @@ footer {
 .navbar {
     top: 0;
     left: 0;
-    width: 100%;
+    /* width: 100%; */
     font-size: 16px;
     min-height: 54px;
     overflow: hidden;
@@ -238,9 +238,44 @@ footer {
         color: rgb(58, 55, 55);
         margin-right: 10px;
         margin-top: 6px;
-        /* background-color: black; */
+         background-color: black; 
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+        color: rgb(58, 55, 55);
+        margin-right: 3%;
+        margin-top: 3%;
+        background: #621717;
     }
 }
+/* 
+@media screen and (max-width: 600px) {
+    .navbar {
+      gap: 0.4em;
+    }
+    .title {
+      font-size: 17px;
+    }
+    .navbar *,
+    .navbar a {
+      font-size: 14px;
+    }
+    .footer {
+      font-size: 18px;
+    }
+    a#random {
+      order: 4;
+    }
+    a.start {
+      order: 5;
+    }
+  } */
+  @media screen and (max-width: 550px) {
+    .center {
+      width: 95%;
+    }
+  }
 
 
 footer p {
