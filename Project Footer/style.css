@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eefeef;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(8, 1, 15);
+    color: #fff;
+    padding: 70px 0 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col-a{
+    flex-basis: 50%;
+    padding: 10px;
+    padding-right: 150px ;
+}
+.logo {
+    width: 210px;
+    margin-bottom: 10px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;   
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    margin-bottom: 40px;
+}
+form .fa-square-envelope{
+    font-size: 18px;
+    margin-right: 20px;
+}
+form input {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icons .fb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #ccc;
+    color: #000;
+    margin-right: 20px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 20px auto;
+    opacity: 10%;
+}
+.copyright {
+   text-align: center; 
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background: #757575;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.line span{
+    width: 45px;
+    height: 100%;
+    background: #ccc;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: movi 2s linear infinite;
+}
+@keyframes movi{
+    0% {
+        left: -40px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .footer{
+        bottom: unset;
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    .col-a{
+        flex-basis: 100%;
+        padding-right: 10px;
+    }
+}
