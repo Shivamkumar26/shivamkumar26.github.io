@@ -12,7 +12,7 @@ body{
     padding: 25px;
 }
 .card-wrapper{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 40px auto;
 }
 img{
@@ -93,13 +93,11 @@ img{
     text-transform: capitalize;
     color: #12263a;
     padding-bottom: 0.6rem;
-    padding-top: 0.8rem;
 }
 .product-detail p{
     font-size: 0.9rem;
     padding: 0.3rem;
     opacity: 0.8;
-    text-align: justify;
 }
 .product-detail ul{
     margin: 1rem 0;
@@ -118,41 +116,38 @@ img{
 .product-detail ul li span{
     font-weight: 400;
 }
-.purchase-info, .purchase-info-2{
-    margin: 0.5rem 0;
+.purchase-info{
+    margin: 1.5rem 0;
 }
-.purchase-info .btn, .purchase-info-2 .btn{
+.purchase-info .btn{
     border: 1.5px solid #ddd;
     border-radius: 25px;
     text-align: center;
     padding: 0.45rem 0.8rem;
     outline: 0;
     margin-right: 0.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
-.purchase-info .btn , .purchase-info-2 .btn{
+.purchase-info .btn{
     cursor: pointer;
     color: #fff;
     font-weight: bold;
 }
 .purchase-info .btn:first-of-type{
     /* background: #256eff; */
-    /* background: #fcbd49; */
-    background-image: linear-gradient(to right top, #fdbe25, #fec928, #ffd42b, #ffdf31, #ffea37);
+    background: #fcbd49;
 }
-.purchase-info-2 .btn:first-of-type{
-    /* background: #d1612f; */
+.purchase-info .btn:last-of-type{
+    background: #d1612f;
     /* background: #f64749; */
-    background-image: linear-gradient(to right top, #d1612f, #d84c21, #e23f1b, #de361e, #d92d21);
 }
-.purchase-info .btn:hover, .purchase-info-2 .btn:hover{
+.purchase-info .btn:hover{
     opacity: 0.9;
     color: black;
 }
 .social-links{
     display: flex;
     align-items: center;
-    margin-top: 1.4rem;
 }
 .social-links a{
     display: flex;
