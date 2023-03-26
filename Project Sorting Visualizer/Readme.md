@@ -4,13 +4,14 @@ This is a web application built using HTML, CSS and Javascript to visualize clas
 
 📍 Checkout demo Live : - **[Demo](https://shivamkumar26.github.io/Project%20Sorting%20Visualizer/)**
 
+<br>
 
 # Purpose 🔍
 
 I made this web application to improve my understanding of
 HTML, CSS, and JS also to help the beginners in programming to gain more clear understanding on sorting algorigthms by visualizing them.
 
-
+<br>
 # Concepts and Algorithms Used ⬇
 
 This application supports the following sorting algorithms:
@@ -22,7 +23,7 @@ This application supports the following sorting algorithms:
 5. **Quick Sort**.
 
 
-
+<br>
 ## Screenshots 📸
 
 <table>
@@ -36,8 +37,6 @@ This application supports the following sorting algorithms:
       <img src="https://user-images.githubusercontent.com/99862619/227771203-34cac853-e97b-493a-a2d3-11a552aecd0b.png" alt="Selecting Size of Array" />
     </td>
   </tr>
-  <br>
-  <br>
   <tr>
     <td>
       ### Selecting Speed of execution
@@ -48,16 +47,12 @@ This application supports the following sorting algorithms:
       <img src="https://user-images.githubusercontent.com/99862619/227771209-db99d0fa-dba2-4fde-a15b-c7fccabe3b69.png" alt="Sorting" />
     </td>
   </tr>
-  <br>
-  <br>
   <tr>
     <td>
       ### Sorting completed
       <img src="https://user-images.githubusercontent.com/99862619/227771207-9fc11b59-963a-42b6-b277-d919de275c9c.png" alt="Sorted completed" />
     </td>
   </tr>
-  <br>
-  <br>
   <tr>
     <td>
       ### Mobile View
