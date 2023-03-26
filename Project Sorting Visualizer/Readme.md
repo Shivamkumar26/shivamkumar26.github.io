@@ -44,13 +44,13 @@ This application supports the following sorting algorithms:
     </td>
   </tr>
   <tr>
-    <td colspan="2">
-      ### Sorted completed
+    <td>
+      ### Sorting completed
       <img src="https://user-images.githubusercontent.com/99862619/227771207-9fc11b59-963a-42b6-b277-d919de275c9c.png" alt="Sorted completed" />
     </td>
   </tr>
   <tr>
-    <td colspan="2">
+    <td>
       ### Mobile View
       <img src="https://user-images.githubusercontent.com/99862619/227771205-fb5465a2-fbff-471a-ba78-8f1f385f417d.png" alt="Mobile View" />
     </td>
