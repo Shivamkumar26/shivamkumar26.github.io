@@ -12,6 +12,7 @@ I made this web application to improve my understanding of
 HTML, CSS, and JS also to help the beginners in programming to gain more clear understanding on sorting algorigthms by visualizing them.
 
 <br>
+
 # Concepts and Algorithms Used ⬇
 
 This application supports the following sorting algorithms:
@@ -24,38 +25,39 @@ This application supports the following sorting algorithms:
 
 
 <br>
-## Screenshots 📸
 
-<table>
+# Screenshots 📸
+
+<table style="font-weight: bold;">
   <tr>
     <td>
-      ### Home Page - Selecting Algorithm
+      Home Page - Selecting Algorithm
       <img src="https://user-images.githubusercontent.com/99862619/227771204-7083dda1-5104-48fa-bb2f-a509b7dce327.png" alt="Selecting Algorithm" />
     </td>
     <td>
-      ### Selecting Size of Array
+      Selecting Size of Array
       <img src="https://user-images.githubusercontent.com/99862619/227771203-34cac853-e97b-493a-a2d3-11a552aecd0b.png" alt="Selecting Size of Array" />
     </td>
   </tr>
   <tr>
     <td>
-      ### Selecting Speed of execution
+      Selecting Speed of execution
       <img src="https://user-images.githubusercontent.com/99862619/227771210-5c4bc5bf-9402-4aa9-83f4-ea8194272a52.png" alt="Selecting Speed of execution" />
     </td>
     <td>
-      ### Sorting 
+      Sorting 
       <img src="https://user-images.githubusercontent.com/99862619/227771209-db99d0fa-dba2-4fde-a15b-c7fccabe3b69.png" alt="Sorting" />
     </td>
   </tr>
   <tr>
     <td>
-      ### Sorting completed
+      Sorting completed
       <img src="https://user-images.githubusercontent.com/99862619/227771207-9fc11b59-963a-42b6-b277-d919de275c9c.png" alt="Sorted completed" />
     </td>
   </tr>
   <tr>
     <td>
-      ### Mobile View
+      Mobile View
       <img src="https://user-images.githubusercontent.com/99862619/227771205-fb5465a2-fbff-471a-ba78-8f1f385f417d.png" alt="Mobile View" />
     </td>
   </tr>
